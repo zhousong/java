@@ -8,11 +8,13 @@ public class ArraysTest {
 		arr[0] = 0;
 		arr[1] = 1;
 
+		System.out.println("arrLen=" + arr.length);
 		printArr(arr);
 		
 		System.out.println("");
 		//
 		arr = Arrays.copyOf(arr, arr.length *2);
+		System.out.println("arr = " + arr.length);
 		printArr(arr);
 	}
 
